@@ -103,7 +103,7 @@ h4{font-size: 64px; line-height: 70px;}
 h5{font-size: 48px; line-height: 55px;}
 h6{font-size: 24px; line-height: 30px;}
 .link{color: #EA40F7; display: inline-block; position: relative;}
-.link, .section-label, .footer-widget .label{font-size: 10px; line-height: 14px;}
+.link, .section-label, .footer-widget .label, .status{font-size: 10px; line-height: 14px;}
 .section-label{color: #4F506B;}
 
 button:focus{outline: none;}
@@ -170,10 +170,11 @@ body,html{height: 100%;}
 /* Sidebar style */
 .sidebar-wrap{left: 0; width: 70px; z-index: 999; background-color: #081239; height: 100vh;}
 .menu-icon{left: 50%; top: 50%; transform: translate(-50%, -50%); cursor: pointer;}
+.menu-icon:after{content: ""; position: absolute; left: -10px; right: -10px; top: -4px; bottom: -4px;}
 .menu-icon div{width: 2.67px; height: 42px;}
 .menu-icon div:before, .menu-icon div:after{width: 2.67px; height: 42px; position: absolute; content: ""; background-color: #00FFFF; margin: 0 6px;}
 .menu-icon div:before{margin-left: -6px;}
-.intro{bottom: 30px; transform: rotate(-90deg); margin: 0; left: 50%; -webkit-transform: rotate(-90deg) translateY(-20px); -moz-transform: rotate(-90deg) translateY(-20px); transform: rotate(-90deg) translateY(-20px);}
+.intro{bottom: 30px; transform: rotate(-90deg); margin: 0; left: 50%; -webkit-transform: rotate(-90deg) translateY(-20px); -moz-transform: rotate(-90deg) translateY(-20px); transform: rotate(-90deg) translateY(-20px); color: #4178B8;}
 
 /* Hero section style */
 .hero-section{min-height: 100vh; z-index: 1;}
